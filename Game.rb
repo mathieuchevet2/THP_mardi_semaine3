@@ -5,9 +5,9 @@ class Game
 	attr_accessor :player1, :player2
 	#initialisation des 2 joueurs
 	def initialize
-		puts "Entrez le nom du premier joueur"
+		puts "Entrez le prenom du premier joueur"
 		@player1 = Player.new(gets.chomp)
-		puts "Entrez le nom du premier joueur"
+		puts "Entrez le prenom du premier joueur"
 		@player2 = Player.new(gets.chomp)
 	end
 	#definition d'une partie complete
