@@ -1,4 +1,4 @@
-#requiert la gem colorize aui permet d'afficher du texte en couleur dans la console
+#requiert la gem colorize qui permet d'afficher du texte en couleur dans la console
 require "colorize"
 #definition de la classe Board qui gere l'affichage du plateau de jeu et les conditions de victoires
 class Board
